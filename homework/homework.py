@@ -214,6 +214,7 @@ def main():
 
     results = evaluate_model(model, X_train, y_train, X_test, y_test)
     save_metrics(results, metrics_path)
+    
 
 if __name__ == '__main__':
     main()
